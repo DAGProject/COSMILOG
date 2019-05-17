@@ -6,8 +6,8 @@ Created on Mon May 13 16:00:13 2019
 """
 
 #Impoting
-from cosmolog import env
-from cosmolog import image
+from cosmilog import env
+from cosmilog import image
 
 logger = env.LOGGER(verb=False)
 fop = env.FILE(verb=False)
