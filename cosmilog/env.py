@@ -84,7 +84,7 @@ except:
     print("Can't import tempfile?")
     exit(0)
     
-class LOGGER():
+class Logger():
     def __init__(self, verb=True, debugger=False):
         """Constructor method."""
         self.verb = verb
@@ -199,12 +199,12 @@ class LOGGER():
         """Plays a beep"""
         print("\a")
         
-class FILE():
+class File():
     def __init__(self, verb=False, debugger=False):
         """Constructor method."""
         self.verb = verb
         self.debugger = debugger
-        self.logger = LOGGER(verb=self.verb, debugger=self.debugger)
+        self.logger = Logger(verb=self.verb, debugger=self.debugger)
         
     def abs_path(self, path):
         """Returns Absolute path"""
