@@ -22,5 +22,4 @@ Currently a python wheel or pip installation is available for this module is und
 
 # Usage <a class="anchor" id="usage"></a>
 Please refer to:
-* https://github.com/DAGProject/cloud_detection/blob/master/test_classifiers.ipynb
-* https://github.com/DAGProject/cloud_detection/blob/master/test_yetenekler.ipynb
+* https://github.com/DAGProject/COSMILOG/blob/master/example.ipynb
